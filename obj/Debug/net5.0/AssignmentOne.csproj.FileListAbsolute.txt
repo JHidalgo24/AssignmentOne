@@ -1,0 +1,16 @@
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.exe
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.deps.json
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.runtimeconfig.json
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.runtimeconfig.dev.json
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.dll
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\ref\AssignmentOne.dll
+C:\Users\justi\Sources\AssignmentOne\bin\Debug\net5.0\AssignmentOne.pdb
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.csproj.AssemblyReference.cache
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.AssemblyInfoInputs.cache
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.AssemblyInfo.cs
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.csproj.CoreCompileInputs.cache
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.dll
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\ref\AssignmentOne.dll
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.pdb
+C:\Users\justi\Sources\AssignmentOne\obj\Debug\net5.0\AssignmentOne.genruntimeconfig.cache
