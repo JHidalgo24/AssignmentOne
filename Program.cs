@@ -7,7 +7,9 @@ namespace AssignmentOne
     {
         static void Main(string[] args)
         {
+           String doAgain = "Y";
 
+            while(doAgain.Substring(0,1) == "Y"){
             //ask user if they want to read file or write to file
             Console.WriteLine("1)Do you want to read file?");
             System.Console.WriteLine("2)Do you want to write to file?");
@@ -16,12 +18,13 @@ namespace AssignmentOne
             //create variables for the file that is going to be created or already created
             string file = "Tickets.csv";
             //they want to read from file
+                       StreamWriter sw = new StreamWriter(file);
+                       StreamReader sr = new StreamReader(file);
             if (decision == "1")
             {
                 if (File.Exists(file))
                 {
                    //read data from the csv
-                   StreamReader sr = new StreamReader(file);
                    int count = 0;
                    while(!sr.EndOfStream){
                        string line = sr.ReadLine();
@@ -36,18 +39,21 @@ namespace AssignmentOne
                             count = 0;
                            }
                        }
+                       sr.Close();
                    } 
                 }
                 else
                 {
                     Console.WriteLine("File does not exist!");
                 }
+
             }
             else if (decision == "2"){
-                StreamWriter sw = new StreamWriter(file);
+                
                 //create accumulator for ticket id
                 int ticketID = 0;
                 do{
+                    
                     sw.WriteLine("TicketID,Summary,Status,Priority,Submitter,Assigned,Watching");
                     //ask for summarry 
                     Console.WriteLine("What is the summary?");
@@ -85,7 +91,13 @@ namespace AssignmentOne
                 }while(decision != "2");
                 sw.Close();
             }
-        
+            else{
+            System.Console.WriteLine("That isn't an option sorry input again");
+            decision = Console.ReadLine();}
+
+                System.Console.WriteLine("Do you want to go again?(Y/N)");
+                doAgain = Console.ReadLine();
+        }
         }
     }
 }
