@@ -38,7 +38,12 @@ namespace AssignmentOne
                             //display array data
                             for (int i = 0; i < words.Length; i++)
                             {
+                                if(i == words.Length-1){
+                                    System.Console.WriteLine(words[i]);
+                                }
+                                else{
                                 System.Console.Write(words[i] + ", ");
+                                }
                                 count++;
                                 if (count == 6)
                                 {
@@ -120,7 +125,12 @@ namespace AssignmentOne
                     for (int i = 0; i < watching; i++)
                     {
                         System.Console.WriteLine($"What is person's {i + 1} name?");
-                        watchers += Console.ReadLine() + "|";
+                        if(i == 0){
+                            watchers+= Console.ReadLine();
+                        }
+                        else{
+                        watchers += "|" + Console.ReadLine();
+                        }
                     }
                     //write all info to the line
                     sw.WriteLine($"{ticketID},{summary},{status},{priority},{submitter},{watchers}");
